@@ -1,0 +1,17 @@
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #202020;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    175deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(128, 127, 127, 1) 35%,
+    rgba(232, 230, 230, 1) 100%
+  );
+}

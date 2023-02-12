@@ -1,0 +1,159 @@
+.hero {
+  top: 5rem;
+  position: relative;
+  z-index: 99;
+  color: #fff;
+}
+.hero h3 {
+  font-size: bold;
+  font-weight: 100;
+  letter-spacing: 2px;
+  z-index: 99;
+  font-family: "raleway";
+}
+.hero h1 {
+  font-size: 40px;
+  font-family: "kaushan script";
+  z-index: 99;
+}
+
+.hero h1 span {
+  color: #ff014f;
+  font-family: "kaushan script";
+
+  z-index: 99;
+}
+.hero h2 {
+  font-size: 40px;
+  color: #ff014f;
+  font-family: "kaushan script";
+
+  z-index: 99;
+}
+.hero h2 span {
+  color: #fff;
+  z-index: 99;
+}
+.hero p {
+  color: #fff;
+  font-family: "raleway";
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 30px;
+  z-index: 99;
+}
+
+.hero .left {
+  margin-right: 10%;
+  z-index: 99;
+}
+.hero .right {
+  width: 40%;
+  position: relative;
+  z-index: 99;
+}
+.hero_btn {
+  margin-top: 3%;
+  margin-left: 150px;
+}
+.hero_btn h4 {
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-family: "kaushan script";
+
+  color: #fff;
+  font-size: 25px;
+  margin: 30px 0 30px 0;
+}
+.hero_btn button {
+  margin-right: 30px;
+}
+.hero_btn a {
+  font-size: 20px;
+}
+.d_flex {
+  display: flex;
+  right: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+button {
+  border: none;
+  outline: none;
+  background-color: none;
+}
+.btn_shadow {
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+}
+.btn_shadow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 2px 2px 4px #cbcbcb, -2px -2px 4px #ffffff;
+}
+.btn_shadow:hover {
+  background: #ff014f;
+  color: white;
+  transform: translateY(-10px);
+}
+
+@media (max-width: 785px) {
+  .hero {
+    top: 200px;
+    width: 100vw;
+    height: 100vh;
+  }
+  .hero .right,
+  .hero .left {
+    width: 100%;
+    z-index: 99;
+
+    margin-left: 20px;
+  }
+
+  .hero .f_flex {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    z-index: 99;
+  }
+  .soy {
+    font-size: 27px;
+  }
+  .span {
+    font-size: 36px;
+  }
+  .type {
+    font-size: 30px;
+  }
+  .welcome {
+    font-size: 27px;
+  }
+  .titulo {
+    font-size: 27px;
+  }
+  .col_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  button {
+    visibility: hidden;
+  }
+  .btn_shadow .cv {
+    visibility: visible;
+  }
+  .parrafo {
+    font-size: 15px;
+  }
+
+  .titl {
+    visibility: hidden;
+  }
+}
+.acv {
+  font-family: "kaushan script";
+  font-size: 20px;
+}
